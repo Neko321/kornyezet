@@ -45,5 +45,7 @@ nav{
     display: flex;
     justify-content: center;
 }
-
+ul a{
+    text-decoration: none;
+}
 
