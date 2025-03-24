@@ -1,7 +1,16 @@
 body{
-    background-image:url(erdo.jpg);
+    background-image: url(Fenntarthato/ht3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+main{
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
+
 
 
