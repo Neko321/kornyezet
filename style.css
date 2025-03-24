@@ -9,8 +9,22 @@ main{
     display: block;
     width: 70%;
     margin: auto;
-
+    
 }
+ 
+header{
+    background-image: url(Fenntarthato/erdo.jpg);
+    padding: 100px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+    border: 5px black solid;
+}
+
 
 
 
