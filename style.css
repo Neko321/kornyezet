@@ -2,12 +2,14 @@ body{
     background-image: url(Fenntarthato/ht3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0;
+    margin: 0;
 }
 
 
 main{
     display: block;
-    width: 70%;
+    width: 90%;
     margin: auto;
     
 }
@@ -22,9 +24,26 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 70%;
-    border: 5px black solid;
+    
 }
 
-
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    
+    
+}
+nav li{
+    border: 2px black solid;
+    margin: 10px;
+    font-size: 25px;
+    background-color: lightgrey;
+}
+nav{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
 
 
