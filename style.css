@@ -9,9 +9,9 @@ body{
 
 main{
     display: block;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    
+    display: flex;
 }
  
 header{
@@ -24,7 +24,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 70%;
-    
+    border: 2px lightgreen solid;
 }
 
 nav ul{
@@ -39,13 +39,53 @@ nav li{
     margin: 10px;
     font-size: 25px;
     background-color: lightgrey;
+    
 }
 nav{
-    background-color: gray;
+    background-color:green;
     display: flex;
     justify-content: center;
+    border: 2px lightgreen solid;
+
 }
 ul a{
     text-decoration: none;
 }
+.bubu{
+    border: 2px black solid;
+    padding: 1.5%;
+    margin: 1.5%;
+    text-align: center;
+    border-radius: 10%;
+}
+section{
+    text-align: center;
+    background-color: green;
+    display: block;
+    box-shadow: 10px 10px 10px 10px ;
+}
+.bubu p{
+    color: white;
+}
+.bubu li{
+    color: white;
+}
+hr{
+    border-color: black;
+}
+ul{
+    list-style: none;
+}
+footer{
+    background-color: green;
+    border: 2px lightgreen solid;
+    text-align: center;
+}
+form{
+    background-color: green;
+    border: 2px lightgreen solid;
+    text-align: center;
+
+}
+
 
