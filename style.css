@@ -77,9 +77,13 @@ ul{
     list-style: none;
 }
 footer{
-    background-color: green;
+    background-image: url(Fenntarthato/ht7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     border: 2px lightgreen solid;
     text-align: center;
+    padding: 10px;
 }
 form{
     background-color: green;
