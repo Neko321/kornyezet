@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const distance = parseFloat(rangeSlider.value);
       
       // Calculate divider (divide by 10 for every 100 km)
-      const divider = 10 ** Math.floor(distance / 100);
+      const divider = 10 ** Math.floor(distance / 10);
       const carbonFootprint = (transportValue * distance) / divider;
   
       resultDisplay.textContent = 
